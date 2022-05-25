@@ -27,7 +27,6 @@ INDEX VERSION 1.131+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plu
 2105016618.index
 1865797976.index
 102872261.index
-1087911073.index
 1179120845.index
 4092897517.index
 2450111205.index

@@ -15,6 +15,6 @@ public class HelloWorldForm extends ActionForm {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
+
 	
 }
