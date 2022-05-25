@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2705428435.index
+\HelloWorldStruts\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\137477956.index
+\HelloWorldDeVerdade\src\main\java

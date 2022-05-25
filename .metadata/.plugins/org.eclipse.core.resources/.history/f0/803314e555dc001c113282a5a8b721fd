@@ -1,0 +1,7 @@
+package com.vaannila.action;
+
+import org.apache.struts.action.Action;
+
+public class HelloWorldAction extends Action {
+
+}
