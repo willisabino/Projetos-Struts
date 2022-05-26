@@ -1216,3 +1216,15 @@ java.lang.NullPointerException: null
 2022-05-26 11:53:42,586 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\DadosPessoais\src\main\resources
 2022-05-26 11:53:42,586 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-26 11:53:42,587 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\DadosPessoais\src\test\resources
+2022-05-26 12:10:37,717 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:10:37,718 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\main\resources
+2022-05-26 12:10:37,720 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:10:37,722 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\test\resources
+2022-05-26 12:10:48,605 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:10:48,606 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\main\resources
+2022-05-26 12:10:48,607 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:10:48,608 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\test\resources
+2022-05-26 12:12:45,226 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:12:45,227 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\main\resources
+2022-05-26 12:12:45,229 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-26 12:12:45,230 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\test\resources

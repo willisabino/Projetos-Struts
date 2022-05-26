@@ -19,5 +19,8 @@
         	<forward name="success" path="/helloWorld.jsp" />
         </action>
     </action-mappings>
+    
+    	<message-resources
+		parameter="info.java.tips.i18n.MessageBundLe"/>
 
 </struts-config>
