@@ -3,3 +3,7 @@ C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst
 \HelloWorldStruts\src\main\java
 C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\137477956.index
 \HelloWorldDeVerdade\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3944695489.index
+\DadosPessoais\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3048867993.index
+\InserirNome\src\main\java

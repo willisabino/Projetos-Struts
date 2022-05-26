@@ -9,8 +9,8 @@
     <form-beans>
     	<form-bean name="helloWorldForm" type="com.vaannila.form.HelloWorldForm"/>
     </form-beans>
-
-	<global-forwards>
+    
+    <global-forwards>
         <forward name="helloWorld" path="/helloWorld.do"/>
     </global-forwards>
 
