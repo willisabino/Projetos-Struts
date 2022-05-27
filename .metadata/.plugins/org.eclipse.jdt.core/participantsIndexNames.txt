@@ -1,9 +1,17 @@
 INDEX VERSION 1.131
-C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2705428435.index
-\HelloWorldStruts\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2827327609.index
+\CadastrarPessoasStruts\src\main\java
 C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\137477956.index
 \HelloWorldDeVerdade\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2705428435.index
+\HelloWorldStruts\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1399917660.index
+\InserirDadosDao\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1175361505.index
+\CadastrarPessoasStruts\src\main\java
 C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3944695489.index
 \DadosPessoais\src\main\java
+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2355069482.index
+\ProjetoCadastro\src\main\java
 C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3048867993.index
 \InserirNome\src\main\java

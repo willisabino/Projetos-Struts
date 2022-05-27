@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="HelloWorldDeVerdade" path="/HelloWorldDeVerdade" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorldDeVerdade"/><Context docBase="InserirNome" path="/InserirNome" reloadable="true" source="org.eclipse.jst.jee.server:InserirNome"/><Context docBase="DadosPessoais" path="/DadosPessoais" reloadable="true" source="org.eclipse.jst.jee.server:DadosPessoais"/></Host>
+      <Context docBase="HelloWorldDeVerdade" path="/HelloWorldDeVerdade" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorldDeVerdade"/><Context docBase="InserirNome" path="/InserirNome" reloadable="true" source="org.eclipse.jst.jee.server:InserirNome"/><Context docBase="DadosPessoais" path="/DadosPessoais" reloadable="true" source="org.eclipse.jst.jee.server:DadosPessoais"/><Context docBase="CadastrarPessoasStruts" path="/CadastrarPessoasStruts" reloadable="true" source="org.eclipse.jst.jee.server:CadastrarPessoasStruts"/><Context docBase="ProjetoCadastro" path="/ProjetoCadastro" reloadable="true" source="org.eclipse.jst.jee.server:ProjetoCadastro"/></Host>
     </Engine>
   </Service>
 </Server>
