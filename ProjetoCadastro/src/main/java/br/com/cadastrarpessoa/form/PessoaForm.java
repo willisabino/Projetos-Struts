@@ -12,8 +12,8 @@ public class PessoaForm extends ActionForm{
 	private String sexo;
 	private Date dataCadastro;
 	private String acao;
-	private String alterar;
-	private String editar;
+	private String idAlt;
+	private String idEdit;
 	
 	public long getId() {
 		return id;
@@ -51,16 +51,16 @@ public class PessoaForm extends ActionForm{
 	public void setAcao(String acao) {
 		this.acao = acao;
 	}
-	public String getAlterar() {
-		return alterar;
+	public String getIdAlt() {
+		return idAlt;
 	}
-	public void setAlterar(String alterar) {
-		this.alterar = alterar;
+	public void setIdAlt(String idAlt) {
+		this.idAlt = idAlt;
 	}
-	public String getEditar() {
-		return editar;
+	public String getIdEdit() {
+		return idEdit;
 	}
-	public void setEditar(String editar) {
-		this.editar = editar;
+	public void setIdEdit(String idEdit) {
+		this.idEdit = idEdit;
 	}
 }

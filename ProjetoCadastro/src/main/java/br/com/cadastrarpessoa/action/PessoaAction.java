@@ -24,6 +24,7 @@ public class PessoaAction extends Action{
 		PessoaService pessoaService = new PessoaService();
 		ArrayList<Pessoa> listaPessoa = new ArrayList<>();
 		
+		
 		if(pessoaForm.getAcao().equals("Inserir")) {
 			
 			pessoaService.inserirPessoas(pessoaForm.getNome(), pessoaForm.getIdade(), pessoaForm.getSexo());
@@ -34,27 +35,23 @@ public class PessoaAction extends Action{
 			
 		}else if(pessoaForm.getAcao().equals("Limpar")) {
 			
-			response.sendRedirect("/cadastroPessoa");
-			
-		}else if(!(pessoaForm.getAlterar().equals(null))) {
+			response.sendRedirect("cadastroPessoa.do");
+
+		}else if(Long.parseLong(pessoaForm.getIdAlt()) != 0) {
 			
 			Pessoa cadastro = new Pessoa();
 			
-			System.out.println("Estou na Alterar");
-			cadastro = pessoaService.buscaPessoaPeloId(pessoaForm.getAlterar());
+			cadastro = pessoaService.buscaPessoaPeloId(pessoaForm.getIdAlt());
 			request.setAttribute("cadastro", cadastro);
+		
+		}else if(Long.parseLong(pessoaForm.getIdEdit()) != 0) {
 			
-		}else if(!(pessoaForm.getEditar().equals(null))) {
-			
-			pessoaService.removeCadastro(pessoaForm.getEditar());
-			System.out.println("oi Deletar");
+			pessoaService.removeCadastro(pessoaForm.getIdEdit());
 			
 		}
-		System.out.println(pessoaForm.getEditar());
-		
 		pessoaForm.setAcao("");
-		pessoaForm.setAlterar(null);
-		pessoaForm.setEditar(null);
+		pessoaForm.setIdAlt("0");
+		pessoaForm.setIdEdit("0");
 		
 		listaPessoa = pessoaService.chamaListaPessoaService();
 		request.setAttribute("listaPessoa", listaPessoa);

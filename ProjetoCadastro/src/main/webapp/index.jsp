@@ -17,16 +17,16 @@
 
 		<h1>Cadastro de Pessoas</h1>
 
-		<p> <!-- hidden="hidden" -->
+		<p hidden="hidden">
 			<label for="id">ID</label>
 			<input type="text" name="id" id="id" value="${ cadastro.id }">
 		</p>
 		<p>
 			<label for="nome">Nome</label> 
-			<input type="text" name="nome" id="nome" value="${ cadastro.nome }">
+			<input type="text" name="nome" id="nome" required value="${ cadastro.nome }">
 		</p>
 		<p>
-			<label for="nome">Idade</label> 
+			<label for="idade">Idade</label> 
 			<input type="text" name="idade" id="idade" required min="0" max="99" value="${ cadastro.idade }">
 		</p>
 		<p>
@@ -38,16 +38,19 @@
 		</p>
 		<p>
 		
-			<!--  <button value="Inserir" id="inserir" name="acao">Inserir</button> -->
 			<input type="submit" value="Inserir" id="inserir" name="acao">  
-			<input type="submit" value="Alterar" id="alterar" name="acao"> 
+			<input type="submit" value="Alterar" id="alterar" name="acao" hidden=""> 
 			<input type="submit" value="Limpar" id="limpar" name="acao">
 		
 		</p>
 
 </h:form>
 
-<h:form action="/cadastroPessoa">
+	<c:if test="${ empty listaPessoa }">
+		<p>Não Há Contatos Cadastrados</p>
+	</c:if>
+	
+	<c:if test="${ not empty listaPessoa }">
 
 <table>
 			<thead>
@@ -70,19 +73,15 @@
 						<td>${ listaPessoas.idade }</td>
 						<td>${ listaPessoas.sexo }</td>
 						<td><fmt:formatDate value="${ listaPessoas.dataCadastro }" pattern="dd/MM/yyy" /></td>
-						<td><button value="${ listaPessoas.id }" id="alterar" name="alterar">O</button></td>
-
-						<td>
-<%-- 						<a href="removePessoaServlet?id=${listaPessoas.id}" onclick="return confirm('Tem certeza que deseja apagar o contato ${ listaPessoas.nome }?')">X</a> --%>
-<%-- 						<input type="submit" value="X" value="${ listaPessoas.id }" name="acao"> --%>
-						<button value="${ listaPessoas.id }" id="editar" name="editar">X</button></td>
+						<td><input type="button" value="O" onclick="inputAlterar('cadastroPessoa.do', 'idAlt', ${ listaPessoas.id })"></td>
+						<td><input type="button" value="X" onclick="inputEditar('cadastroPessoa.do', 'idEdit', ${ listaPessoas.id })"></td>
 					</tr>
 
 				</c:forEach>
 			</tbody>
 		</table>
+		</c:if>
 
-</h:form>
-
+<script src="js.js"></script>
 </body>
 </html>
