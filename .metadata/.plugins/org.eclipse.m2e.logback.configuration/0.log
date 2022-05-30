@@ -1438,3 +1438,8 @@ java.lang.NullPointerException: null
 2022-05-29 22:50:15,133 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\main\resources
 2022-05-29 22:50:15,133 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-29 22:50:15,133 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\test\resources
+2022-05-30 09:24:34,908 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-05-30 09:24:43,186 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-30 09:24:43,186 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\main\resources
+2022-05-30 09:24:43,202 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-30 09:24:43,202 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Willi Sabino\Documents\Estudo\Struts\InserirNome\src\test\resources

@@ -9,5 +9,3 @@ INDEX VERSION 1.4+C:\Users\Willi Sabino\Documents\Estudo\Struts\.metadata\.plugi
 1087911073.index
 1937742997.index
 1445200585.index
-3889635425.index
-2355069482.index

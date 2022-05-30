@@ -1,7 +1,7 @@
 
 function inputAlterar(action, idAlt, idParam){
   location.href=action+"?"+idAlt+"="+idParam;
-  bloquear()
+  bloquear();
   submit();
 }
 
